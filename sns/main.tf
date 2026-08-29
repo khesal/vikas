@@ -7,7 +7,7 @@ name = "my-alerts"
 resource "aws_sns_topic_subscription" "email" {
 topic_arn = aws_sns_topic.alerts.arn
 protocol = "email"
-endpoint = "khesal80@gmail.com"
+endpoint = "khesal_80@yahoo.com"
 }
 output "topic_arn" {
 value = aws_sns_topic.alerts.arn
